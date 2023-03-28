@@ -21,6 +21,7 @@
 		0AD4CD1A29D2C63900CA43E9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1829D2C63900CA43E9 /* Roboto-Regular.ttf */; };
 		0AD4CD1B29D2C63900CA43E9 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1929D2C63900CA43E9 /* Roboto-Bold.ttf */; };
 		0AD4CD1D29D2C71500CA43E9 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1C29D2C71500CA43E9 /* Roboto-Medium.ttf */; };
+		0AD4CD1F29D2C96A00CA43E9 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1E29D2C96A00CA43E9 /* UIView + Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		0AD4CD1829D2C63900CA43E9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		0AD4CD1929D2C63900CA43E9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		0AD4CD1C29D2C71500CA43E9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		0AD4CD1E29D2C96A00CA43E9 /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				0AD4CD0229D2ACF700CA43E9 /* UIColor + Extensions.swift */,
 				0AD4CD1429D2C2ED00CA43E9 /* UIFont + Extensions.swift */,
+				0AD4CD1E29D2C96A00CA43E9 /* UIView + Extensions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD4CD1F29D2C96A00CA43E9 /* UIView + Extensions.swift in Sources */,
 				0AD4CD1529D2C2ED00CA43E9 /* UIFont + Extensions.swift in Sources */,
 				0AD4CD0129D2AC7300CA43E9 /* TabBarController.swift in Sources */,
 				0AD4CD0329D2ACF700CA43E9 /* UIColor + Extensions.swift in Sources */,
