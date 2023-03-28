@@ -13,10 +13,14 @@
 		0AD4CCF529D2A7CC00CA43E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD4CCF329D2A7CC00CA43E9 /* LaunchScreen.storyboard */; };
 		0AD4CD0129D2AC7300CA43E9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4CD0029D2AC7300CA43E9 /* TabBarController.swift */; };
 		0AD4CD0329D2ACF700CA43E9 /* UIColor + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4CD0229D2ACF700CA43E9 /* UIColor + Extensions.swift */; };
-		0AD4CD0729D2ADBE00CA43E9 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4CD0629D2ADBE00CA43E9 /* Resources.swift */; };
 		0AD4CD0D29D2B0C400CA43E9 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4CD0C29D2B0C400CA43E9 /* SessionViewController.swift */; };
 		0AD4CD0F29D2B0F800CA43E9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4CD0E29D2B0F800CA43E9 /* SettingsViewController.swift */; };
 		0AD4CD1129D2B10400CA43E9 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1029D2B10400CA43E9 /* ProgressViewController.swift */; };
+		0AD4CD1329D2C0AE00CA43E9 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1229D2C0AE00CA43E9 /* NavBarController.swift */; };
+		0AD4CD1529D2C2ED00CA43E9 /* UIFont + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1429D2C2ED00CA43E9 /* UIFont + Extensions.swift */; };
+		0AD4CD1A29D2C63900CA43E9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1829D2C63900CA43E9 /* Roboto-Regular.ttf */; };
+		0AD4CD1B29D2C63900CA43E9 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1929D2C63900CA43E9 /* Roboto-Bold.ttf */; };
+		0AD4CD1D29D2C71500CA43E9 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1C29D2C71500CA43E9 /* Roboto-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +32,14 @@
 		0AD4CCF629D2A7CC00CA43E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AD4CD0029D2AC7300CA43E9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		0AD4CD0229D2ACF700CA43E9 /* UIColor + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extensions.swift"; sourceTree = "<group>"; };
-		0AD4CD0629D2ADBE00CA43E9 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		0AD4CD0C29D2B0C400CA43E9 /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
 		0AD4CD0E29D2B0F800CA43E9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0AD4CD1029D2B10400CA43E9 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		0AD4CD1229D2C0AE00CA43E9 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
+		0AD4CD1429D2C2ED00CA43E9 /* UIFont + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extensions.swift"; sourceTree = "<group>"; };
+		0AD4CD1829D2C63900CA43E9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		0AD4CD1929D2C63900CA43E9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		0AD4CD1C29D2C71500CA43E9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +93,8 @@
 		0AD4CCFD29D2AB4E00CA43E9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0AD4CD1729D2C62400CA43E9 /* Font */,
 				0AD4CCF129D2A7CC00CA43E9 /* Assets.xcassets */,
-				0AD4CD0629D2ADBE00CA43E9 /* Resources.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -98,7 +106,7 @@
 				0AD4CD0A29D2B09C00CA43E9 /* Progress */,
 				0AD4CD0929D2B09500CA43E9 /* Session */,
 				0AD4CD0829D2B07E00CA43E9 /* Overview */,
-				0AD4CD0029D2AC7300CA43E9 /* TabBarController.swift */,
+				0AD4CD1629D2C44800CA43E9 /* Navigations */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -123,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				0AD4CD0229D2ACF700CA43E9 /* UIColor + Extensions.swift */,
+				0AD4CD1429D2C2ED00CA43E9 /* UIFont + Extensions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -157,6 +166,25 @@
 				0AD4CD0E29D2B0F800CA43E9 /* SettingsViewController.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		0AD4CD1629D2C44800CA43E9 /* Navigations */ = {
+			isa = PBXGroup;
+			children = (
+				0AD4CD0029D2AC7300CA43E9 /* TabBarController.swift */,
+				0AD4CD1229D2C0AE00CA43E9 /* NavBarController.swift */,
+			);
+			path = Navigations;
+			sourceTree = "<group>";
+		};
+		0AD4CD1729D2C62400CA43E9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0AD4CD1C29D2C71500CA43E9 /* Roboto-Medium.ttf */,
+				0AD4CD1929D2C63900CA43E9 /* Roboto-Bold.ttf */,
+				0AD4CD1829D2C63900CA43E9 /* Roboto-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +245,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD4CD1D29D2C71500CA43E9 /* Roboto-Medium.ttf in Resources */,
+				0AD4CD1A29D2C63900CA43E9 /* Roboto-Regular.ttf in Resources */,
 				0AD4CCF529D2A7CC00CA43E9 /* LaunchScreen.storyboard in Resources */,
+				0AD4CD1B29D2C63900CA43E9 /* Roboto-Bold.ttf in Resources */,
 				0AD4CCF229D2A7CC00CA43E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,13 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD4CD1529D2C2ED00CA43E9 /* UIFont + Extensions.swift in Sources */,
 				0AD4CD0129D2AC7300CA43E9 /* TabBarController.swift in Sources */,
 				0AD4CD0329D2ACF700CA43E9 /* UIColor + Extensions.swift in Sources */,
 				0AD4CD0F29D2B0F800CA43E9 /* SettingsViewController.swift in Sources */,
 				0AD4CD1129D2B10400CA43E9 /* ProgressViewController.swift in Sources */,
 				0AD4CCED29D2A7C900CA43E9 /* OverviewViewController.swift in Sources */,
 				0AD4CD0D29D2B0C400CA43E9 /* SessionViewController.swift in Sources */,
-				0AD4CD0729D2ADBE00CA43E9 /* Resources.swift in Sources */,
+				0AD4CD1329D2C0AE00CA43E9 /* NavBarController.swift in Sources */,
 				0AD4CCE929D2A7C900CA43E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
