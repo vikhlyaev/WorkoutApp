@@ -39,7 +39,7 @@ final class TabBarController: UITabBarController {
         }
         
         viewControllers?.enumerated().forEach {
-            $1.tabBarItem.title = dataSource[$0].title
+            $1.tabBarItem.title = dataSource[$0].titleTabBar
             $1.tabBarItem.image = UIImage(named: dataSource[$0].iconName)
             $1.tabBarItem.tag = $0
         }
@@ -56,7 +56,7 @@ enum Tabs: Int, CaseIterable {
     case progress
     case settings
     
-    var title: String {
+    var titleTabBar: String {
         switch self {
         case .overview:
             return "Overview"
