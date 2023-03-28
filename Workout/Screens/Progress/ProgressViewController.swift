@@ -17,10 +17,33 @@ final class ProgressViewController: UIViewController {
     
     private func setupNavBar() {
         title = "Workout Progress"
+        
+        let exportBarButton = UIBarButtonItem(title: "Export",
+                                             style: .plain,
+                                             target: self,
+                                             action: #selector(exportButtonTapped))
+        
+        let detailsBarButton = UIBarButtonItem(title: "Details",
+                                             style: .plain,
+                                             target: self,
+                                             action: #selector(detailsButtonTapped))
+        
+        navigationItem.setLeftBarButton(exportBarButton, animated: true)
+        navigationItem.setRightBarButton(detailsBarButton, animated: true)
     }
     
     private func setupTabBar() {
         navigationController?.tabBarItem.title = Tabs.progress.titleTabBar
+    }
+    
+    @objc
+    private func exportButtonTapped() {
+        print(#function)
+    }
+    
+    @objc
+    private func detailsButtonTapped() {
+        print(#function)
     }
 }
 
