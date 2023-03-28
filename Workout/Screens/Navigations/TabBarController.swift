@@ -8,13 +8,16 @@ final class TabBarController: UITabBarController {
     }
     
     private func setupTabBar() {
-        tabBar.tintColor = Resources.Colors.active
-        tabBar.barTintColor = Resources.Colors.active
+        tabBar.tintColor = .customActive
+        tabBar.barTintColor = .customInactive
         tabBar.backgroundColor = .white
         
-        tabBar.layer.borderColor = Resources.Colors.separator.cgColor
+        tabBar.layer.borderColor = UIColor.separator.cgColor
         tabBar.layer.borderWidth = 1
         tabBar.layer.masksToBounds = true
+        
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.robotoMedium(with: 10)], for: .normal)
+
         
         let dataSource: [Tabs] = [.overview, .session, .progress, .settings]
         
@@ -42,8 +45,8 @@ final class TabBarController: UITabBarController {
         }
     }
     
-    private func embedInNavigationController(viewController: UIViewController) -> UINavigationController {
-        UINavigationController(rootViewController: viewController)
+    private func embedInNavigationController(viewController: UIViewController) -> NavBarController {
+        NavBarController(rootViewController: viewController)
     }
 }
 
