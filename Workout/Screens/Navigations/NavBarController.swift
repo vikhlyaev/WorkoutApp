@@ -14,6 +14,8 @@ final class NavBarController: UINavigationController {
             .foregroundColor: UIColor.customTitleDarkGray,
             .font: UIFont.robotoMedium(with: 17)
         ]
+        
+        navigationBar.addBottomBorder(with: .customSeparator, height: 1)
     }
     
 }

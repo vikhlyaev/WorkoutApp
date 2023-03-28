@@ -12,7 +12,7 @@ final class TabBarController: UITabBarController {
         tabBar.barTintColor = .customInactive
         tabBar.backgroundColor = .white
         
-        tabBar.layer.borderColor = UIColor.separator.cgColor
+        tabBar.layer.borderColor = UIColor.customSeparator.cgColor
         tabBar.layer.borderWidth = 1
         tabBar.layer.masksToBounds = true
         
