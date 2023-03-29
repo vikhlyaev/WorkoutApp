@@ -6,7 +6,7 @@ extension UIColor {
     static var customSeparator = UIColor(hexString: "#E8ECEF")
     static var customTitleDarkGray = UIColor(hexString: "#545C77")
     static var customBackground = UIColor(hexString: "#F8F9F9")
-    
+    static var customBackgroundButton = UIColor(hexString: "#F0F3FF")
     
     convenience init(hexString: String) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
