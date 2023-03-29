@@ -22,6 +22,7 @@
 		0AD4CD1B29D2C63900CA43E9 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1929D2C63900CA43E9 /* Roboto-Bold.ttf */; };
 		0AD4CD1D29D2C71500CA43E9 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1C29D2C71500CA43E9 /* Roboto-Medium.ttf */; };
 		0AD4CD1F29D2C96A00CA43E9 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4CD1E29D2C96A00CA43E9 /* UIView + Extensions.swift */; };
+		0AE18D7E29D400900013AAFC /* NavBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE18D7D29D400900013AAFC /* NavBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		0AD4CD1929D2C63900CA43E9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		0AD4CD1C29D2C71500CA43E9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		0AD4CD1E29D2C96A00CA43E9 /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
+		0AE18D7D29D400900013AAFC /* NavBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		0AD4CD0829D2B07E00CA43E9 /* Overview */ = {
 			isa = PBXGroup;
 			children = (
+				0AE18D7C29D400770013AAFC /* Views */,
 				0AD4CCEC29D2A7C900CA43E9 /* OverviewViewController.swift */,
 			);
 			path = Overview;
@@ -188,6 +191,14 @@
 				0AD4CD1829D2C63900CA43E9 /* Roboto-Regular.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		0AE18D7C29D400770013AAFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AE18D7D29D400900013AAFC /* NavBarButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 				0AD4CD0D29D2B0C400CA43E9 /* SessionViewController.swift in Sources */,
 				0AD4CD1329D2C0AE00CA43E9 /* NavBarController.swift in Sources */,
 				0AD4CCE929D2A7C900CA43E9 /* AppDelegate.swift in Sources */,
+				0AE18D7E29D400900013AAFC /* NavBarButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
