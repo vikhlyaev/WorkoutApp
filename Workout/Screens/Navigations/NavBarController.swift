@@ -27,9 +27,4 @@ final class NavBarController: UINavigationController {
         
         navigationBar.addBottomBorder(with: .customSeparator, height: 1)
     }
-    
-    func addNavBarButton() {
-        
-    }
-    
 }
